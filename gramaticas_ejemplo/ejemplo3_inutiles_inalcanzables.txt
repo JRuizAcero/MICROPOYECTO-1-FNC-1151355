@@ -1,0 +1,10 @@
+# Gramática de prueba con símbolos inútiles y no alcanzables
+Variables: S, A, B, C, D
+Terminales: a, b, c, d
+Inicial: S
+Producciones:
+S -> A B | a
+A -> a
+B -> B C
+C -> c
+D -> d

@@ -1,0 +1,8 @@
+# Gramática clásica de Teoría de la Computación (Hopcroft & Ullman)
+Variables: S, A, B
+Terminales: a, b
+Inicial: S
+Producciones:
+S -> a B | b A
+A -> a | a S | b A A
+B -> b | b S | a B B

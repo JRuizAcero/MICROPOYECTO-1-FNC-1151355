@@ -22,13 +22,13 @@ class GrammarValidationResult:
     def get_summary(self) -> str:
         lines = []
         if self.is_valid:
-            lines.append("✔ La gramática es VÁLIDA y cumple con todos los requisitos formales.")
+            lines.append("[OK] La gramática es VÁLIDA y cumple con todos los requisitos formales.")
         else:
-            lines.append(f"✖ Se encontraron {len(self.errors)} error(es) en la definición de la gramática:")
+            lines.append(f"[ERROR] Se encontraron {len(self.errors)} error(es) en la definición de la gramática:")
             for err in self.errors:
                 lines.append(f"   • {err}")
         if self.warnings:
-            lines.append(f"⚠ Advertencias ({len(self.warnings)}):")
+            lines.append(f"[ADVERTENCIA] Advertencias ({len(self.warnings)}):")
             for w in self.warnings:
                 lines.append(f"   • {w}")
         return "\n".join(lines)

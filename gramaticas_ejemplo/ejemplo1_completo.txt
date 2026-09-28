@@ -1,0 +1,10 @@
+# Gramática de prueba 1: Caso completo con nulas, unitarias y reducción
+# L = { a^n b^n | n >= 1 } extendida con producciones intermedias
+Variables: S, A, B, C
+Terminales: a, b
+Inicial: S
+Producciones:
+S -> A B | a
+A -> a A | ε
+B -> b B | b
+C -> a B | c
