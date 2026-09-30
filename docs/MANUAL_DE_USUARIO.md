@@ -4,13 +4,6 @@
 
 ---
 
-**Institución:** Universidad Francisco de Paula Santander (UFPS)  
-**Asignatura:** Teoría de la Computación  
-**Autor:** Julian Gomez Ibarra (Código: 1151355)  
-**Versión:** 1.0.0  
-
----
-
 ## 1. PRESENTACIÓN DEL SISTEMA
 El **Aplicativo para Depuración y Conversión de Gramáticas Libres de Contexto a Forma Normal de Chomsky** es una herramienta de software diseñada para estudiantes y docentes de Teoría de la Computación. Permite ingresar cualquier Gramática Libre de Contexto (GLC) $G = (V, T, P, S)$, verificar que esté correctamente definida y transformarla paso a paso o de manera totalmente automática a su equivalente en **Forma Normal de Chomsky (FNC)**.
 
